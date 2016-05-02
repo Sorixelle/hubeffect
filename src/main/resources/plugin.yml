@@ -1,0 +1,23 @@
+name: HubEffect
+version: 1.0.0
+author: TheReturningVoid
+main: net.thereturningvoid.hubeffect.HubEffect
+description: Potion effects applied to players in a world or by items.
+
+depend: [VoidCore]
+
+commands:
+  hubeffectgive:
+    description: Give the user a HubEffect item.
+    aliases: hegive
+    usage: this is bug, pls report
+
+permissions:
+  hubeffect.*:
+    description: Access to all HubEffect commands and items on join.
+    default: op
+    children:
+      hubeffect.admin: true
+  hubeffect.admin:
+    description: Access to all HubEffect commands.
+    default: op

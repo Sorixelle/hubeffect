@@ -1,0 +1,16 @@
+items:
+  item1:
+    offItem:
+      type: "sulphur"
+      name: "&3&lHub Effects: &c&l&n&oOFF"
+    onItem:
+      type: "sugar"
+      name: "&3&lHub Effects: &a&l&n&oON"
+    invincible: true
+    doublejump: true
+    effects:
+      - speed|5
+      - jump|5
+    enablemsg: "&4&l[&2&lHub&a&lSpeed&4&l] &a&lEnabled effects!"
+    disablemsg: "&4&l[&2&lHub&a&lSpeed&4&l] &c&lDisabled effects!"
+    world: world_nether
