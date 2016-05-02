@@ -45,11 +45,11 @@ items:
 
 ### Commands and Permissions
 ###### Commands
-`/hubeffectgive <item_name>` OR `/hegive <item_name>`: Gives a item from the config to the player who used it. Requires the `hubeffect.admin` permission.
+* `/hubeffectgive <item_name>` OR `/hegive <item_name>`: Gives a item from the config to the player who used it. Requires the `hubeffect.admin` permission.
 
 ###### Permissions
-`hubeffect.admin`: Access to all admin commands.
-`hubeffect.<item_name>`: Gives the player with the permission the corresponding item on join.
+* `hubeffect.admin`: Access to all admin commands.
+* `hubeffect.<item_name>`: Gives the player with the permission the corresponding item on join.
 
 ### Contributing
 If you have a contribution to make to the plugin, just fork it and make a pull request. I'll take a look at it and merge it if I like it. Be aware, however, that you are agreeing to the Apache 2.0 Licence when you contribute!
