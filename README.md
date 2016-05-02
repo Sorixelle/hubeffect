@@ -30,18 +30,18 @@ items:
     world: world_nether
 ```
 
-`items`: The root value. Don't delete this, or the plugin wont work.
-`item1`: The container for one item. This can be named anything you want, and there can be as many of these as you want.
-`offItem`: Information for an item when the effect set is in the "off" state.
-`onItem`: Information for an item when the effect set is in the "on" state.
-`type`: The type of item. Case-insensitive. A list of possible items can be found [here](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html).
-`name`: The name of the item. Colour codes can be used. A list of possible colour codes can be found [here](http://ess.khhq.net/mc/).
-`invincible`: `true` if you want the effect set to grant invincibility; `false` otherwise.
-`doublejump`: `true` if you want the effect set to grant double jumping powers, `false` otherwise.
-`effects`: A list of effects for the set to apply in the format `- <effect_name>|<strength>`. A list of valid effect names can be found [here](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/potion/PotionEffectType.html).
-`enablemsg`: A message to display to the player when they enable the effects.
-`disablemsg`: A message to display to the player when they disable the effects.
-`world`: A world for this effect set to always be applied in.
+* `items`: The root value. Don't delete this, or the plugin wont work.
+* `item1`: The container for one item. This can be named anything you want, and there can be as many of these as you want.
+* `offItem`: Information for an item when the effect set is in the "off" state.
+* `onItem`: Information for an item when the effect set is in the "on" state.
+* `type`: The type of item. Case-insensitive. A list of possible items can be found [here](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html).
+* `name`: The name of the item. Colour codes can be used. A list of possible colour codes can be found [here](http://ess.khhq.net/mc/).
+* `invincible`: `true` if you want the effect set to grant invincibility; `false` otherwise.
+* `doublejump`: `true` if you want the effect set to grant double jumping powers, `false` otherwise.
+* `effects`: A list of effects for the set to apply in the format `- <effect_name>|<strength>`. A list of valid effect names can be found [here](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/potion/PotionEffectType.html).
+* `enablemsg`: A message to display to the player when they enable the effects.
+* `disablemsg`: A message to display to the player when they disable the effects.
+* `world`: A world for this effect set to always be applied in.
 
 ### Commands and Permissions
 ###### Commands
